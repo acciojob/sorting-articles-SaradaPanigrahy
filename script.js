@@ -14,7 +14,7 @@ const sortedArray = bands.sort((a, b) => {
 });
 
 // Get the ul element
-let list = document.querySelector("#band");
+let list = document.getElementById("band");
 
 // Append each band as a list item
 sortedArray.forEach((item) => {
